@@ -53,7 +53,7 @@ fi
 
 # ---------------- Defaults & args ----------------
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-MOUNT_OPT="$SCRIPT_DIR/fedora_mount_optimizer.sh"
+MOUNT_OPT="$SCRIPT_DIR/fedora_mount_optimizer_host_locked_atomic.sh"
 TUNER="$SCRIPT_DIR/fedora_laptop_tuner.sh"
 
 LOG_DIR="/var/log/fedora-tune"
